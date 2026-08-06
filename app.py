@@ -335,8 +335,7 @@ elif st.session_state.view == "details":
 
     if data.get("backdrop_url"):
         st.markdown("#### Backdrop")
-        st.image(data["backdrop_url"], use_column_width=True)
-
+        st.image(data["backdrop_url"], width="stretch")
     st.divider()
     st.markdown("### ✅ Recommendations")
 
